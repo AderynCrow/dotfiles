@@ -1,8 +1,0 @@
-[user]
-	name = peit_penbottom
-	email = luerike12@gmail.com
-[core]
-	editor = nvim
-	autocrlf = input
-[credential]
-	helper = store
