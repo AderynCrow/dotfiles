@@ -162,7 +162,7 @@
 }
 
 #pulseaudio {
-	font-size: 21px;
+	font-size: 15px;
 	background: @sound;
 	color: @black;
 }
