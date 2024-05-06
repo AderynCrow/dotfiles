@@ -22,7 +22,7 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "MartianMono Nerd Font 10";
-    background:     #1E1D2FE0;
+    background:     #1E1E2EB3;
     background-alt: #282839E0;
     foreground:     #D9E0EEFF;
     selected:       #CBA6F7FF;

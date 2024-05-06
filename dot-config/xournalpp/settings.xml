@@ -14,8 +14,8 @@
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="2"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="944"/>
-  <property name="mainWndHeight" value="1032"/>
+  <property name="mainWndWidth" value="1908"/>
+  <property name="mainWndHeight" value="998"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
@@ -165,6 +165,14 @@
     </data>
   </data>
   <data name="deviceClasses">
+    <data name="SMART Technologies SBID-7075 Stylus">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
+    <data name="SMART Technologies SBID-7075 Stylus (Eraser)">
+      <attribute name="deviceClass" type="int" value="3"/>
+      <attribute name="deviceSource" type="int" value="2"/>
+    </data>
     <data name="Wacom HID 5110 Pen">
       <attribute name="deviceClass" type="int" value="2"/>
       <attribute name="deviceSource" type="int" value="1"/>

@@ -40,6 +40,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'luochen1990/rainbow'
+Plug 'nuchs/vim-hypr-nav'
 call plug#end()
 
 
