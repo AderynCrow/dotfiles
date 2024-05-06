@@ -63,7 +63,7 @@
 
 /* The whole bar */
 #waybar {
-    background: rgba(30, 30, 46, 0.5);
+    background: rgba(30, 30, 46, 0.7);
 	/*background: rgba(40, 40, 40, 0.8784313725);*/ /* #282828e0 */
 	color: @white;
 	font-family: MartianMono Nerd Font, JetBrains Mono, Siji;
