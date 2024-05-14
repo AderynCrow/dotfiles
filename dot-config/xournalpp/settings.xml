@@ -195,7 +195,7 @@
     </data>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="eraser"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>

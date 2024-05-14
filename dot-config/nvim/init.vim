@@ -41,6 +41,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'luochen1990/rainbow'
 Plug 'nuchs/vim-hypr-nav'
+Plug 'edluffy/hologram.nvim'
 call plug#end()
 
 
@@ -116,6 +117,10 @@ function! RunBuildScript()
 endfunction
 
 
-
 "source CoC Keybinds
 :so ~/.config/nvim/cocKeybinds.vim
+lua << EOF
+require('hologram').setup{
+    auto_display = true -- WIP automatic markdown image display, may be prone to breaking
+}
+EOF
