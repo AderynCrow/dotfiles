@@ -20,6 +20,7 @@
 
     "modules-center": [ "custom/arrow11", "hyprland/workspaces" , "custom/arrow14"],
 	"modules-right": [
+		"custom/recorder",
 		"custom/arrow13",
 		"custom/power_profile",
 		"custom/arrow9",
@@ -74,7 +75,7 @@
 
 
 	 "custom/power_profile": {
-        "exec": "sleep 0.3 && ~/.config/hypr/scripts/powerprofilecycle.sh -m",
+        "exec": "sleep 0.5 && ~/.config/hypr/scripts/powerprofilecycle.sh -m",
         "interval": 120,
         "on-click": "~/.config/hypr/scripts/powerprofilecycle.sh",
         "exec-on-event": true
@@ -216,6 +217,14 @@
 	"tray": {
 		"icon-size": 18,
 		"spacing": 10
+	},
+
+  "custom/recorder": {
+		"format": "",
+		"return-type": "json",
+		"interval": 1,
+		"exec": "echo '{\"class\": \"recording\"}'",
+		"exec-if": "pgrep wf-recorder"
 	},
 
 	"custom/arrow1": {

@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Peits custom Toolbars"/>
-  <property name="lastSavePath" value="/home/AderynCrow/Downloads"/>
+  <property name="lastSavePath" value="/home/AderynCrow/Documents/Studium/Archiv/Semester2/Rechnernetze"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value="/home/peit_penbottom/Pictures"/>
   <property name="edgePanSpeed" value="20"/>
@@ -14,9 +14,9 @@
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="2"/>
   <property name="displayDpi" value="72"/>
-  <property name="mainWndWidth" value="1908"/>
-  <property name="mainWndHeight" value="998"/>
-  <property name="maximized" value="false"/>
+  <property name="mainWndWidth" value="1904"/>
+  <property name="mainWndHeight" value="1032"/>
+  <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
   <property name="sidebarWidth" value="50"/>
@@ -195,7 +195,7 @@
     </data>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="eraser"/>
+    <attribute name="current" type="string" value="pen"/>
     <data name="drawArrow">
       <attribute name="drawingType" type="string" value="default"/>
     </data>
