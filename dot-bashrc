@@ -6,7 +6,7 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias up-mirrors='rate-mirrors arch | grep -v "#" | sudo tee /etc/pacman.d/mirrorlist'
+alias up-mirrors='rate-mirrors arch | tee >(grep -v "#" | grep . | sudo tee /etc/pacman.d/mirrorlist)'
 alias tmux='~/Git/ConfigCrow/tmux'
 did() {
 echo $(history | tac | fzf | sed 's/^[ ]*[0-9]\+[ ]*//') | bash
