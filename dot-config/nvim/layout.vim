@@ -137,7 +137,7 @@ if &buftype ==# 'terminal'
   "lower right terminal"
   set nonumber
   set norelativenumber
-  call chansend(5,"neofetch\n")
+  call chansend(5,"neowofetch\n")
 endif
 setlocal fdm=manual
 setlocal fde=0

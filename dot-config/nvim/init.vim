@@ -42,6 +42,7 @@ Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'luochen1990/rainbow'
 Plug 'nuchs/vim-hypr-nav'
 Plug 'edluffy/hologram.nvim'
+Plug 'jbyuki/instant.nvim'
 call plug#end()
 
 
@@ -86,12 +87,17 @@ if &term == "tmux-256color"
 else
 	colorscheme	catppuccin-mocha
 endif
+
 if &term == "linux"
 	set notermguicolors
     colorscheme OceanicNext
 	:source ~/.config/nvim/layout.vim
 	highlight Visual guibg=#0000FF
 	highlight Visual guifg=#000000
+endif
+
+if &term == "xterm-kitty"
+	lua require('hologram').setup{ auto_display = true }
 endif
 
 "same background as terminal, allows for transparency"
@@ -116,11 +122,7 @@ function! RunBuildScript()
 	endif
 endfunction
 
+let g:instant_username = "crow"
 
 "source CoC Keybinds
 :so ~/.config/nvim/cocKeybinds.vim
-lua << EOF
-require('hologram').setup{
-    auto_display = true -- WIP automatic markdown image display, may be prone to breaking
-}
-EOF
