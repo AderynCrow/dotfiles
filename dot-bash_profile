@@ -13,7 +13,7 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 export MOZ_ENABLE_WAYLAND=1
 export MOZ_USE_XINPUT2=1
-export GTK_THEME=Catppuccin-Mocha-Standard-Mauve-Dark
+#export GTK_THEME=Catppuccin-Mocha-Standard-Mauve-Dark
 
 export VISUAL=nvim;
 export EDITOR=nvim;
