@@ -91,7 +91,7 @@ endif
 if &term == "linux"
 	set notermguicolors
     colorscheme OceanicNext
-	:source ~/.config/nvim/layout.vim
+	":source ~/.config/nvim/layout.vim"
 	highlight Visual guibg=#0000FF
 	highlight Visual guifg=#000000
 endif

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <players version="1" >
     <current player="Crow"/>
-    <player name="Crow" guest="false" use-frequency="38"
+    <player name="Crow" guest="false" use-frequency="39"
             icon-filename="1.png"
             unique-id="1" saved-session="false"
             saved-user="0" saved-token=""
@@ -9,7 +9,7 @@
             remember-password="true"
             default-kart-color="0.74">
       <story-mode first-time="false" finished="false" speedrun-finished="false"
-                  story-ms="11685439" speedrun-ms="14222360">
+                  story-ms="11717789" speedrun-ms="14254710">
         <abyss solved="hard" best_while_slower="false"/>
         <candela_city solved="hard" best_while_slower="false"/>
         <cocoa_temple solved="hard" best_while_slower="false"/>

@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Peits custom Toolbars"/>
-  <property name="lastSavePath" value="/home/AderynCrow/.config/xournalpp"/>
+  <property name="lastSavePath" value="/home/AderynCrow/Documents/Studentenjobs/Wintersemester2425"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value="/home/peit_penbottom/Pictures"/>
   <property name="edgePanSpeed" value="20"/>
@@ -165,6 +165,14 @@
     </data>
   </data>
   <data name="deviceClasses">
+    <data name="CVTEDevice TouchDevice Stylus">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
+    <data name="CVTEDevice TouchDevice Stylus (Eraser)">
+      <attribute name="deviceClass" type="int" value="3"/>
+      <attribute name="deviceSource" type="int" value="2"/>
+    </data>
     <data name="SMART Technologies SBID-7075 Stylus">
       <attribute name="deviceClass" type="int" value="2"/>
       <attribute name="deviceSource" type="int" value="1"/>
@@ -233,11 +241,11 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="dce0e8"/>
+      <attribute name="color" type="hex" value="81c8be"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
-      <attribute name="size" type="string" value="MEDIUM"/>
+      <attribute name="size" type="string" value="THIN"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject">

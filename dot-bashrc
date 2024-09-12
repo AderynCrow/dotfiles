@@ -5,6 +5,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+#Please leave me alone
 alias grep='grep --color=auto'
 alias up-mirrors='rate-mirrors arch | tee >(grep -v "#" | grep . | sudo tee /etc/pacman.d/mirrorlist)'
 alias tmux='~/Git/ConfigCrow/tmux'
@@ -44,7 +45,7 @@ if [ "$TERM" = "linux" ]; then
     echo -en "\e]PFcdd6f4" #white
     clear #for background artifacting
 	#~/Git/ConfigCrow/tmux
-	nvim
+	#nvim
 fi
 
 
