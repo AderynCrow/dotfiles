@@ -37,7 +37,6 @@
 
 
 	// Modules
-
 	"battery": {
 		"interval": 10,
 		"states": {
@@ -152,7 +151,7 @@
 	},
 
 	"hyprland/window": {
-		"format": " {1} ",
+		"format": " {title} ",
 		"max-length": 30,
 		"tooltip": false
 	},
