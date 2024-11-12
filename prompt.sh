@@ -25,5 +25,5 @@ arrow2(){
 }
 
 
-PS1='\[\033[9${textColor};4${firstColor}m\] \u $(arrow)\[\033[9${textColor};4${secondColor}m\] \w \[\033[0m\]$(show_git_branch)'
+PS1='\[\033[9${textColor};4${firstColor}m\] \u@\H $(arrow)\[\033[9${textColor};4${secondColor}m\] \w \[\033[0m\]$(show_git_branch)'
 PS2='$(arrow2)\e[0m'
