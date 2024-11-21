@@ -17,5 +17,6 @@
   }
 },
 "rpc.enabled": false,
-"rpc.suppressNotifications": false
+"rpc.suppressNotifications": false,
+"java.import.gradle.java.home": "/usr/lib/jvm/java-8-openjdk"
 }

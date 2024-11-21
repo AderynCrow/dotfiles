@@ -39,17 +39,19 @@ Plug 'iamcco/markdown-preview.nvim'
 Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'rose-pine/nvim', { 'as': 'rose-pine' }
 Plug 'luochen1990/rainbow'
 Plug 'nuchs/vim-hypr-nav'
 Plug 'edluffy/hologram.nvim'
 Plug 'jbyuki/instant.nvim'
+Plug 'sindrets/diffview.nvim'
+Plug 'lilyinstarlight/vim-sonic-pi'
 call plug#end()
-
 
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-			\ 'colorscheme': 'catppuccin',
+			\ 'colorscheme': 'rosepine_dawn',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly','absolutepath', 'modified' ] ],
@@ -85,7 +87,7 @@ if &term == "tmux-256color"
     colorscheme OceanicNext
 	highlight Visual guibg=#FFFFFF
 else
-	colorscheme	catppuccin-mocha
+	colorscheme	rose-pine
 endif
 
 if &term == "linux"

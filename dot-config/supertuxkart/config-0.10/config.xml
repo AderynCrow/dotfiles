@@ -48,7 +48,7 @@
         soccer-time-limit="3"
         soccer-use-time-limit="false"
         random-arena-item="false"
-        difficulty="2"
+        difficulty="0"
         game_mode="0"
         soccer-red-ai-num="0"
         soccer-blue-ai-num="0"
@@ -60,10 +60,10 @@
     </RaceSetup>
 
     <!-- Kart to select by default (the last used kart) -->
-    <kart value="adiumy" />
+    <kart value="addon_xenia" />
 
     <!-- Last selected kart group -->
-    <last_kart_group value="standard" />
+    <last_kart_group value="all" />
 
     <!-- Settings for the wiimote
              wiimote-raw-max : At what raw input value maximum steering is reached (between 1 and 25).
@@ -167,16 +167,16 @@
         force_legacy_device="false"
         split_screen_horizontally="true"
         enable_texture_compression="true"
-        enable_high_definition_textures="3"
+        enable_high_definition_textures="2"
         enable_glow="false"
         enable_bloom="false"
-        enable_light_shaft="true"
+        enable_light_shaft="false"
         enable_dynamic_lights="true"
         enable_dof="false"
         old_driver_popup="true"
         scale_rtts_factor="0.650000"
         max_texture_size="512"
-        hq_mipmap="true"
+        hq_mipmap="false"
         font_size="3.000000"
         render_driver="gl"
         vulkan_fullscreen_desktop="true"
@@ -255,7 +255,7 @@
     <num-karts-per-gamemode>
         <gamemode-list gamemode="0" num-karts="4"/>
         <gamemode-list gamemode="1002" num-karts="5"/>
-        <gamemode-list gamemode="1100" num-karts="4"/>
+        <gamemode-list gamemode="1100" num-karts="7"/>
         <gamemode-list gamemode="1101" num-karts="1"/>
         <gamemode-list gamemode="2000" num-karts="4"/>
         <gamemode-list gamemode="2001" num-karts="4"/>
@@ -276,19 +276,19 @@
              shadows_resolution : Shadow resolution (0 = disabled
              Degraded_IBL : Disable specular IBL -->
     <GFX
-        particles-effecs="2"
+        particles-effecs="1"
         christmas-mode="0"
         easter-ear-mode="0"
         animated-characters="true"
-        geometry_level="0"
-        anisotropic="16"
+        geometry_level="1"
+        anisotropic="2"
         swap-interval="0"
         motionblur_enabled="false"
         mlaa="false"
-        ssao="false"
+        ssao="true"
         light_scatter="false"
-        shadows_resolution="1024"
-        Degraded_IBL="true"
+        shadows_resolution="512"
+        Degraded_IBL="false"
     >
     </GFX>
 
@@ -397,7 +397,7 @@ moving the mouse (means acceleration).
     <item_style value="items" />
 
     <!-- Name of the last track used. -->
-    <last_track value="ravenbridge_mansion" />
+    <last_track value="gran_paradiso_island" />
 
     <!-- Last selected track group -->
     <last_track_group value="all" />
@@ -474,12 +474,12 @@ moving the mouse (means acceleration).
              addon_last_updated : Time addon-list was updated last.
              latest_addon_time : Latest approved addon time. -->
     <AddonServer
-        news_last_updated="1725401199"
+        news_last_updated="1730203404"
         news_frequency="0"
         news_display_count=""
         last_important_message_id="-1"
-        addon_last_updated="1725401204"
-        latest_addon_time="1725119509"
+        addon_last_updated="1730203405"
+        latest_addon_time="1730058535"
     >
     </AddonServer>
 

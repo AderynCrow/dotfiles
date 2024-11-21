@@ -1,8 +1,15 @@
 [user]
-	name = AderynCrow
-	email = luerike12@gmail.com
+	name = Crow Marx
+	email = crow.marx@stud.hs-emden-leer.de
 [core]
 	editor = nvim
 	autocrlf = input
 [credential]
 	helper = store
+[merge]
+	tool = diffview
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "diffview"]
+	cmd = nvim -n -c "DiffviewOpen" "$MERGE"

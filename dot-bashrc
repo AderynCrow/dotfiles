@@ -9,6 +9,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias up-mirrors='rate-mirrors arch | tee >(grep -v "#" | grep . | sudo tee /etc/pacman.d/mirrorlist)'
 alias tmux='~/Git/ConfigCrow/tmux'
+alias pandoc='pandoc --data-dir=/usr/share/pandoc/data/'
 did() {
 echo $(history | tac | fzf | sed 's/^[ ]*[0-9]\+[ ]*//') | bash
 }
@@ -53,11 +54,14 @@ eval OPAM_SWITCH_PREFIX='/home/AderynCrow/.opam/default'; export OPAM_SWITCH_PRE
 CAML_LD_LIBRARY_PATH='/home/AderynCrow/.opam/default/lib/stublibs:/usr/lib/ocaml/stublibs:/usr/lib/ocaml'; export CAML_LD_LIBRARY_PATH;
 OCAML_TOPLEVEL_PATH='/home/AderynCrow/.opam/default/lib/toplevel'; export OCAML_TOPLEVEL_PATH;
 MANPATH=':/home/AderynCrow/.opam/default/man'; export MANPATH;
-PATH='$HOME/.local/bin:$PATH:/home/AderynCrow/.opam/default/bin:/home/AderynCrow/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/opt/android-sdk/platform-tools:/home/AderynCrow/.dotnet/tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl'
+PATH='$HOME/.local/bin:$PATH:/home/AderynCrow/.opam/default/bin:/home/AderynCrow/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/opt/android-sdk/platform-tools:/home/AderynCrow/.dotnet/tools:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/crow/flutter'
 export PATH;
 
 shopt -s checkwinsize
 source ~/prompt.sh
+source /usr/share/fzf-tab-completion/bash/fzf-bash-completion.sh
+bind -x '"\t": fzf_bash_completion'
+
 
 export VISUAL=nvim;
 export EDITOR=nvim;

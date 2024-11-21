@@ -32,13 +32,13 @@ Event 3 : Gamepad button press
 <gamepad name ="Nintendo Wii Remote" deadzone="4096" desensitize="0" auto-center="20" force-feedback="1" enabled="true" configName="">
      <action name="steerLeft" event="3" id="5" />
     <action name="steerRight" event="3" id="8" />
-    <action name="accel" event="3" id="7" />
+    <action name="accel" event="3" id="1" />
     <action name="brake" event="3" id="6" />
     <action name="nitro" event="3" id="9" />
     <action name="drift" event="3" id="10" />
-    <action name="rescue" event="3" id="4" />
+    <action name="rescue" event="3" id="3" />
     <action name="fire" event="3" id="0" />
-    <action name="lookBack" event="3" id="1" />
+    <action name="lookBack" event="3" id="4" />
     <action name="pauserace" event="3" id="2" />
     <action name="menuUp" event="3" id="7" />
     <action name="menuDown" event="3" id="6" />

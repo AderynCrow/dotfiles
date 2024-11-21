@@ -1,4 +1,9 @@
 # BEGIN_KITTY_THEME
-# Dimmed Monokai
+# Catppuccin-Mocha
 include current-theme.conf
 # END_KITTY_THEME
+font_family      MartianMono Nerd Font Mono
+bold_font        MartianMono Nerd Font Mono Extra Bold
+bold_italic_font MartianMono Nerd Font Mono Extra Bold Italic
+font_size        15.0
+background_opacity 0.7
