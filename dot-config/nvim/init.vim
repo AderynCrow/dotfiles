@@ -51,7 +51,7 @@ call plug#end()
 " Always show lightline
 set laststatus=2
 let g:lightline = {
-			\ 'colorscheme': 'rosepine_dawn',
+			\ 'colorscheme': 'catppuccin',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             ['readonly','absolutepath', 'modified' ] ],
@@ -87,7 +87,7 @@ if &term == "tmux-256color"
     colorscheme OceanicNext
 	highlight Visual guibg=#FFFFFF
 else
-	colorscheme	rose-pine
+	colorscheme	catppuccin-mocha
 endif
 
 if &term == "linux"
