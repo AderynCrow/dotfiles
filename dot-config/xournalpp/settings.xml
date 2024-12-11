@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
   <property name="selectedToolbar" value="Right hand Note Taking"/>
-  <property name="lastSavePath" value="/home/crow/Downloads"/>
+  <property name="lastSavePath" value=""/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value="/home/peit_penbottom/Pictures"/>
   <property name="edgePanSpeed" value="20"/>
@@ -28,7 +28,7 @@
   <property name="numColumns" value="1"/>
   <property name="numRows" value="1"/>
   <property name="viewFixedRows" value="false"/>
-  <property name="showPairedPages" value="false"/>
+  <property name="showPairedPages" value="true"/>
   <property name="layoutVertical" value="false"/>
   <property name="layoutRightToLeft" value="false"/>
   <property name="layoutBottomToTop" value="false"/>
@@ -244,7 +244,7 @@
       <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="dce0e8"/>
+      <attribute name="color" type="hex" value="232634"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>

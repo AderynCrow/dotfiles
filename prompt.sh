@@ -16,6 +16,18 @@ show_git_branch() {
   fi
 }
 
+yazi_icon() {
+if [ -n "$YAZI_LEVEL" ]; then
+	echo " 󰇥"
+fi
+}
+
+ssh_icon() {
+if [ -n "$SSH_CLIENT" ]; then
+	echo " "
+fi
+}
+
 arrow(){
 	echo -e "\001\033[3${firstColor};4${secondColor}m\002\u${glyph}"
 }
@@ -25,5 +37,5 @@ arrow2(){
 }
 
 
-PS1='\[\033[${textColor};4${firstColor}m\] \u@\H $(arrow)\[\033[${textColor};4${secondColor}m\] \w \[\033[0m\]$(show_git_branch)'
+PS1='\[\033[${textColor};4${firstColor}m\] \u@\H$(ssh_icon)$(yazi_icon) $(arrow)\[\033[${textColor};4${secondColor}m\] \w \[\033[0m\]$(show_git_branch)'
 PS2='$(arrow2)\e[0m'

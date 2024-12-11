@@ -48,7 +48,7 @@
         soccer-time-limit="3"
         soccer-use-time-limit="false"
         random-arena-item="false"
-        difficulty="0"
+        difficulty="1"
         game_mode="0"
         soccer-red-ai-num="0"
         soccer-blue-ai-num="0"
@@ -60,7 +60,7 @@
     </RaceSetup>
 
     <!-- Kart to select by default (the last used kart) -->
-    <kart value="addon_xenia" />
+    <kart value="pidgin" />
 
     <!-- Last selected kart group -->
     <last_kart_group value="all" />
@@ -397,7 +397,7 @@ moving the mouse (means acceleration).
     <item_style value="items" />
 
     <!-- Name of the last track used. -->
-    <last_track value="gran_paradiso_island" />
+    <last_track value="lighthouse" />
 
     <!-- Last selected track group -->
     <last_track_group value="all" />
@@ -474,12 +474,12 @@ moving the mouse (means acceleration).
              addon_last_updated : Time addon-list was updated last.
              latest_addon_time : Latest approved addon time. -->
     <AddonServer
-        news_last_updated="1730203404"
+        news_last_updated="1733926194"
         news_frequency="0"
         news_display_count=""
         last_important_message_id="-1"
-        addon_last_updated="1730203405"
-        latest_addon_time="1730058535"
+        addon_last_updated="1733926195"
+        latest_addon_time="1732648500"
     >
     </AddonServer>
 

@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
 <highscores version="4">
+  <highscore track-name    ="xr591"
+             number-karts  ="7"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="287.028"
+                    name    ="Crow"
+                    kartname="pidgin"/>
+             <entry time    ="326.983"
+                    name    ="Guest"
+                    kartname="beastie"/>
+  </highscore>
   <highscore track-name    ="volcano_island"
              number-karts  ="4"
              difficulty    ="0"
@@ -12,6 +25,16 @@
              <entry time    ="258.381"
                     name    ="peit_penbottom"
                     kartname="addon_default-cube-v2"/>
+  </highscore>
+  <highscore track-name    ="volcano_island"
+             number-karts  ="7"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="2"
+             reverse       ="false">
+             <entry time    ="271.864"
+                    name    ="Crow"
+                    kartname="addon_xenia"/>
   </highscore>
   <highscore track-name    ="snowtuxpeak"
              number-karts  ="4"
@@ -103,6 +126,32 @@
                     name    ="Guest"
                     kartname="tux"/>
   </highscore>
+  <highscore track-name    ="olivermath"
+             number-karts  ="7"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="6"
+             reverse       ="false">
+             <entry time    ="195.166"
+                    name    ="Crow"
+                    kartname="pidgin"/>
+             <entry time    ="225.745"
+                    name    ="Guest"
+                    kartname="beastie"/>
+  </highscore>
+  <highscore track-name    ="snowmountain"
+             number-karts  ="7"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="229.515"
+                    name    ="Crow"
+                    kartname="pidgin"/>
+             <entry time    ="249.5"
+                    name    ="Guest"
+                    kartname="beastie"/>
+  </highscore>
   <highscore track-name    ="scotland"
              number-karts  ="4"
              difficulty    ="0"
@@ -141,6 +190,19 @@
              <entry time    ="251.871"
                     name    ="Crow"
                     kartname="addon_xenia"/>
+  </highscore>
+  <highscore track-name    ="fortmagma"
+             number-karts  ="7"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="191.332"
+                    name    ="Crow"
+                    kartname="pidgin"/>
+             <entry time    ="299.458"
+                    name    ="Guest"
+                    kartname="beastie"/>
   </highscore>
   <highscore track-name    ="cornfield_crossing"
              number-karts  ="5"
@@ -282,6 +344,19 @@
              <entry time    ="158.081"
                     name    ="Crow"
                     kartname="addon_default-cube-v2"/>
+  </highscore>
+  <highscore track-name    ="lighthouse"
+             number-karts  ="7"
+             difficulty    ="3"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="4"
+             reverse       ="false">
+             <entry time    ="143.564"
+                    name    ="Crow"
+                    kartname="pidgin"/>
+             <entry time    ="177.05"
+                    name    ="Guest"
+                    kartname="beastie"/>
   </highscore>
   <highscore track-name    ="abyss"
              number-karts  ="4"

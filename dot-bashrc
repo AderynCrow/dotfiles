@@ -9,9 +9,9 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias up-mirrors='rate-mirrors arch | tee >(grep -v "#" | grep . | sudo tee /etc/pacman.d/mirrorlist)'
 alias tmux='~/Git/ConfigCrow/tmux'
-alias pandoc='pandoc --data-dir=/usr/share/pandoc/data/'
+#alias pandoc='pandoc --data-dir=/usr/share/pandoc/data/'
 did() {
-echo $(history | tac | fzf | sed 's/^[ ]*[0-9]\+[ ]*//') | bash
+	echo $(history | tac | fzf | sed 's/^[ ]*[0-9]\+[ ]*//') | bash
 }
 #neofetch but rainbow flag
 #alias neofetch='commands=("hyfetch -p bisexual" "hyfetch -p rainbow" "hyfetch -p nonbinary" "hyfetch -p pansexual" "hyfetch -p transgender" "hyfetch -p femboy") && chosen_command=$(shuf -n 1 -e "${commands[@]}") && eval "$chosen_command"'
@@ -24,6 +24,11 @@ alias rainbowfetch='hyfetch -p $(shuf -e bisexual rainbow nonbinary pansexual tr
 #better bash completion
 if [ -f /etc/bash_completion ]; then
   source /etc/bash_completion
+fi
+
+if [ -x "$(command -v fzf)" ] && [ -f /usr/share/fzf-tab-completion/bash/fzf-bash-completion.sh ]; then
+	source /usr/share/fzf-tab-completion/bash/fzf-bash-completion.sh
+	bind -x '"\t": fzf_bash_completion'
 fi
 
 
@@ -59,9 +64,6 @@ export PATH;
 
 shopt -s checkwinsize
 source ~/prompt.sh
-source /usr/share/fzf-tab-completion/bash/fzf-bash-completion.sh
-bind -x '"\t": fzf_bash_completion'
-
 
 export VISUAL=nvim;
 export EDITOR=nvim;
