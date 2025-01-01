@@ -9,7 +9,7 @@
             remember-password="true"
             default-kart-color="0.74">
       <story-mode first-time="false" finished="false" speedrun-finished="false"
-                  story-ms="14199216" speedrun-ms="19118212">
+                  story-ms="15807251" speedrun-ms="20726247">
         <abyss solved="hard" best_while_slower="false"/>
         <candela_city solved="hard" best_while_slower="false"/>
         <cocoa_temple solved="hard" best_while_slower="false"/>
