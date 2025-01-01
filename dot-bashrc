@@ -64,6 +64,7 @@ export PATH;
 
 shopt -s checkwinsize
 source ~/prompt.sh
+source ~/templ.sh
 
 export VISUAL=nvim;
 export EDITOR=nvim;
