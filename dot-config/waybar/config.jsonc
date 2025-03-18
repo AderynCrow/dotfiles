@@ -18,7 +18,7 @@
 		"custom/arrow10"
 	],
 
-    "modules-center": [ "custom/arrow11", "hyprland/workspaces" , "custom/arrow14"],
+    "modules-center": [ "custom/arrow11", "hyprland/workspaces" , "wlr/taskbar" , "wlr/workspaces" , "custom/arrow14"],
 	"modules-right": [
 		"custom/recorder",
 		"custom/arrow13",
@@ -35,6 +35,50 @@
 		"clock#time"
 	],
 
+"sway/workspaces": {
+	"disable-scroll": true,
+	"all-outputs": true,
+	"format": "{name}: {icon}",
+	"format-icons": {
+		"1": "",
+		"2": "",
+		"3": "",
+		"4": "",
+		"5": "",
+		"high-priority-named": [ "1", "2" ],
+		"urgent": "",
+		"focused": "",
+		"default": ""
+	}
+},
+
+	"wlr/workspaces": {
+  "format": "{icon}",
+  "on-click": "activate",
+  "format-icons": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "4",
+    "urgent": "",
+    "active": "",
+    "default": ""
+  },
+  "sort-by-number": true
+},
+
+	  "wlr/taskbar": {
+        "format": "{icon}",
+        "on-click": "minimize-raise",
+        "on-click-right": "close",
+        "on-click-middle": "maximize",
+        "tooltip-format": "{app_id} {title}",
+        "icon-size": 32,
+        "ignore-list": [
+            "Alacritty"
+        ]
+    },
 
 	// Modules
 	"battery": {

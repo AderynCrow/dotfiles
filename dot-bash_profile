@@ -26,3 +26,9 @@ export EDITOR=nvim;
 # This section can be safely removed at any time if needed.
 test -r '/home/crow/.opam/opam-init/init.sh' && . '/home/crow/.opam/opam-init/init.sh' > /dev/null 2> /dev/null || true
 # END opam configuration
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[ -f /home/crow/.dart-cli-completion/bash-config.bash ] && . /home/crow/.dart-cli-completion/bash-config.bash || true
+## [/Completion]
+

@@ -123,6 +123,20 @@
 	background: @mode;
 }
 
+#taskbar button {
+	padding-left: 2pt;
+	padding-right: 2pt;
+	color: @white;
+	background: @unfocused;
+}
+
+#taskbar button.active {
+	padding-left: 2pt;
+	padding-right: 2pt;
+	color: @white;
+	background: @purple;
+}
+
 /* Workspaces stuff */
 #workspaces button {
 	/*font-weight: bold;*/
