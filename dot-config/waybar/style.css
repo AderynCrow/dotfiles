@@ -156,6 +156,32 @@
 	color: @white;
 }
 
+/* Taskbar stuff */
+#taskbar button {
+	/*font-weight: bold;*/
+	padding-left: 2pt;
+	padding-right: 2pt;
+	color: @white;
+	background: @unfocused;
+}
+
+/* Active (on focused output) */
+#taskbar button.active {
+	color: @black;
+	background: @purple;
+}
+
+/* Active (on focused output) */
+#taskbar button.active:hover {
+	color: @black;
+	background: @focused;
+}
+
+/* Style when cursor is on the button */
+#taskbar button:hover {
+	background: @black;
+	color: @white;
+}
 #window {
 	background: @window;
 	color: @black;
