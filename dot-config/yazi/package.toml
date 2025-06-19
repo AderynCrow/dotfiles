@@ -13,6 +13,11 @@ use = "yazi-rs/plugins:jump-to-char"
 rev = "864a021"
 hash = "a670c03eb3760812e044a24f94cedc55"
 
+[[plugin.deps]]
+use = "h-hg/yamb"
+rev = "22af003"
+hash = "7cc42012a7c2099f80064d228feb8d44"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
 rev = "68326b4"
