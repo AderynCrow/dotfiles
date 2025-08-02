@@ -46,6 +46,7 @@ Plug 'edluffy/hologram.nvim'
 Plug 'jbyuki/instant.nvim'
 Plug 'sindrets/diffview.nvim'
 Plug 'lilyinstarlight/vim-sonic-pi'
+Plug 'lervag/vimtex'
 call plug#end()
 
 " Always show lightline

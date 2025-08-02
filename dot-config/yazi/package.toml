@@ -18,6 +18,11 @@ use = "h-hg/yamb"
 rev = "22af003"
 hash = "7cc42012a7c2099f80064d228feb8d44"
 
+[[plugin.deps]]
+use = "dedukun/relative-motions"
+rev = "2e3b617"
+hash = "b67ee12053113983273e9118a7d1272b"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
 rev = "68326b4"
